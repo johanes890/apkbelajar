@@ -4,4 +4,4 @@ Rp = number = st.number_input("Masukan jumlah belanja (Rp): ",0)
 item = number = st.number_input("Masukan jumlah barang (Rp): ",0)
 if st.button("Hitung Volume", type="primary"):
   v = math.pi*(Rp**2)*item
-  st.success(f"Jmlah belanja adalah {v:.2f}")
+  st.success(f"Jmlah belanja adalah {Rp:.2f}")
